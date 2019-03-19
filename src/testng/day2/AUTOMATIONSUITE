@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+  <listener class-name="org.uncommons.reportng.HTMLReporter" /> 
+  <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> 
+  </listeners>
+  <test name="Test">
+  <package>
+  <package name="testng.day2"/>
+  </package>
+  <!---  <classes>
+      <class name="testng.day2.FirstTest"/>
+      <class name="testng.day2.SecondTest"/>
+      <class name="testng.day2.ThirdTest"/>
+    </classes> -->
+  </test>
+   <!-- Test -->
+</suite>
+ <!-- Suite -->
